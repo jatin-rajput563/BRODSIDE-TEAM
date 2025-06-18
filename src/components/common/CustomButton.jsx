@@ -1,10 +1,8 @@
 import React from 'react'
 
-const CustomButton = () => {
+const CustomButton = ({ btnClass, btnText }) => {
   return (
-    <div>
-      
-    </div>
+    <button className={`py-[23.5px] px-[25.5px] text-[35px] leadind-[100%] text-[#070004] ${btnClass}`}>{btnText}</button>
   )
 }
 
