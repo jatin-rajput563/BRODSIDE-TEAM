@@ -1,5 +1,5 @@
 import React from 'react';
-import charliesIcon from '../assets/images/png/charliesicon-img.png';
+import charliesIcon from '../assets/images/png/charlie-icon-img.png';
 
 const Charlie = () => {
   return (
