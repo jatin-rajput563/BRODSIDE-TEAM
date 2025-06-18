@@ -1,6 +1,13 @@
 import vector from '../assets/images/png/vector-profile-pic.png'
 import charlie from '../assets/images/png/charlie-profile-pic.png'
 import matt from '../assets/images/png/matt-profile-pic.png'
+import JourneyImgOne from "../assets/images/png/journey-img-1.png"
+import JourneyImgTwo from "../assets/images/png/journey-img-2.png"
+import JourneyImgThree from "../assets/images/png/journey-img-3.png"
+import storyImg1 from "../assets/images/png/story-img-1.png"
+import storyImg2 from "../assets/images/png/story-img-2.png"
+import storyImg3 from "../assets/images/png/story-img-3.png"
+import storyImg4 from "../assets/images/png/story-img-4.png"
 
 export const TEAM_DATA = [
     {
@@ -23,9 +30,35 @@ export const TEAM_DATA = [
         descriptionTwo: `He started out as the founding editor of RWD, where he met Vector and Charlie. Together, they helped grow RWD into one of the largest digital music platforms in the UK. Mason went on to serve as marketing head and Chief Content Ocer at BitTorrent, where he led the team that created BitTorrent Bundle - a decentralized content distribution platform launched in 2011 with the help of Thom Yorke, Skrillex, Gramatik, Linkin Park and Madonna, serving 175 million monthly users`,
         descriptionThree: `He then ran an innovation lab for Sony Pictures, served as CMO of cryptocurrency exchange Kraken, and is now Chief Content Ocer of Palm NFT Studio: and has helped create and launch projects including The Currency by Damien Hirst, and DC Comics NFT platform among others. Matt was once named ‘Best Pirate’ by Bloomberg Businessweek, and made the #11 spot on Fast Company's 100 Most Creative People in Business list`
     },
-import JourneyImgOne from "../assets/images/png/journey-img-1.png"
-import JourneyImgTwo from "../assets/images/png/journey-img-2.png"
-import JourneyImgThree from "../assets/images/png/journey-img-3.png"
+];
+
+export const STORYTELLING_DATA = [
+    {
+        img: storyImg1,
+        descriptionOne: `Broadside is set in a new Solar Punk storyworld`,
+        descriptionTwo: `Decentralized from the start with lots of room to explore both for the creators and the community.`,
+        descriptionThree: `... and this is all just Phase 1.`,
+    },
+    {
+        img: storyImg2,
+        descriptionOne: `Broadside is set in a new Solar Punk storyworld`,
+        descriptionTwo: `Decentralized from the start with lots of room to explore both for the creators and the community.`,
+        descriptionThree: `... and this is all just Phase 1.`,
+    },
+    {
+        img: storyImg3,
+        descriptionOne: `Broadside is set in a new Solar Punk storyworld`,
+        descriptionTwo: `Decentralized from the start with lots of room to explore both for the creators and the community.`,
+        descriptionThree: `... and this is all just Phase 1.`,
+    },
+    {
+        img: storyImg4,
+        descriptionOne: `Broadside is set in a new Solar Punk storyworld`,
+        descriptionTwo: `Decentralized from the start with lots of room to explore both for the creators and the community.`,
+        descriptionThree: `... and this is all just Phase 1.`,
+    },
+];
+
 export const JOURNEY_DATA = [
     {
         img: JourneyImgOne,
@@ -46,4 +79,4 @@ export const JOURNEY_DATA = [
         heading: "Merge and burn Episode NFTs into a 1 /1 full book NFT.",
         description: "Featuring your specic character with exclusive 1 of 1 art - with epub les of your character’s story so you can print / sell copies, including print - on demand options for physical copies."
     }
-]
+];
