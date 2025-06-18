@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='bg-[#1154B0] flex justify-center items-center'>
       <div className='w-full max-w-[1029px] mx-auto px-4 lg:px-0 '>
         <div className='flex flex-col md:flex-row gap-4 md:gap-[47px] py-6 md:py-[50px] items-center'>
-          <CustomInput inputClass="bg-white w-full max-w-[730px] !text-black" />
+          <CustomInput inputClass="bg-white w-full w-[730px] !text-black " />
           <CustomButton btnClass="bg-[#FFF173] w-full md:w-auto md:whitespace-nowrap" btnText="NOTIFY ME" />
           </div>
         <p className='text-lg sm:text-xl md:text-2xl leading-[120%] text-white text-center max-w-[395px] mx-auto'>
@@ -30,6 +30,7 @@ const Footer = () => {
             <img
               src={twitter}
               alt="Twitter Icon"
+              className='hover:transition-transform duration-300 hover:scale-105'
             />
           </a>
 

@@ -13,7 +13,7 @@ const Partners = () => {
             className="w-full max-w-[425px] flex flex-col text-left px-2 mx-auto h-full bg-white">
             <div className="h-[130px] sm:h-[160px] md:h-[202px] w-full mb-[30px] sm:mb-[40px] md:mb-[50px] flex items-start">
               <img
-                src={obj.logo}
+                src={obj.images}
                 alt={obj.name}
                 className="h-full object-contain object-left" />
             </div>

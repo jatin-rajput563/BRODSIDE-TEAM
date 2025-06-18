@@ -4,19 +4,19 @@ import fkksImg from "../assets/images/png/fkks-img.png";
 
 export const PARTNERS_DATA = [
     {
-        logo: dazzleShipImg,
+        images: dazzleShipImg,
         name: "DAZZLE SHIP...",
         role: "Creative Production Studio",
         description: "Working across fashion, gaming, music & tech. Previous clients include: The James Bond Franchise, Activision, Microsoft and Drone Racing League.",
     },
     {
-        logo: nervousImg,
+        images: nervousImg,
         name: "Nervous",
         role: "Web3 Dev Team",
         description: "Previously known for: AdamBombSquad, Warpsound_ai, LessThanJake",
     },
     {
-        logo: fkksImg,
+        images: fkksImg,
         name: "FKKS",
         role: "IP Rights / Terms",
         description: "Jeremy Goldman and Zach Lewis @ Frankfurt Kurnit Klein & Selz PC",
