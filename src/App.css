@@ -2,11 +2,13 @@
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('./assets/Fonts/NeueMachina-PlainUltrabold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    src: url('src/assets/Fonts/NeueMachina-PlainRegular.otf');
 }
 
 body {
     font-family: 'Neue Machina', sans-serif;
 }
+
+/* . ff-neue */
+
+ /* ff-courir */
