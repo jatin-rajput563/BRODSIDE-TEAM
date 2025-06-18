@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Description = ({ descriptionClass, descriptionText, spanText }) => {
+const Description = ({ descriptionClass, descriptionText, spanText, spanClass, spanClass2, spanText2 }) => {
   return (
-    <p className={`text-2xl leading-[120%] ${descriptionClass}`}>{descriptionText} {spanText} </p>
+    <p className={`text-2xl leading-[120%] ${descriptionClass}`}><span className={`font-extrabold text-2xl md:text-[32px] leading-[120%] ${spanClass}`}>{spanText}</span> {descriptionText}<span className={`${spanClass2}`}>{spanText2}</span></p>
   )
 }
 

@@ -1,5 +1,5 @@
 import "./App.css";
-import React from 'react'
+import React from "react";
 import Hero from "./components/Hero";
 import Notify from "./components/Notify";
 import Journey from "./components/Journey";
@@ -9,12 +9,12 @@ import Team from "./components/Team";
 import Charlie from "./components/Charlie";
 import Partners from "./components/Partners";
 import Footer from "./components/Footer";
-
+// import BackToTop from "./components/common/Backtotop";
 
 function App() {
   return (
     <>
-      <Hero />
+      {/* <Hero />
       <Notify />
       <Journey />
       <Avatars />
