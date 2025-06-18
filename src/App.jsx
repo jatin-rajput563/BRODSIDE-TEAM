@@ -14,7 +14,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {/* <Hero />
+      <Hero />
+      {/* <BackToTop /> */}
       <Notify />
       <Journey />
       <Avatars />
