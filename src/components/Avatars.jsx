@@ -1,11 +1,11 @@
 import React from 'react'
 
 const Avatars = () => {
-    return (
-        <>
-
-        </>
-    )
+  return (
+    <div>
+      
+    </div>
+  )
 }
 
 export default Avatars
