@@ -16,7 +16,7 @@ const Footer = () => {
           NO PAID INFLUENCERS <br />
           NO PAID ADS
         </p>
-        <p className='text-[20px] sm:text-[28px] md:text-[32px] leading-[100%] text-center text-white pb-10 lg:pb-16'>
+        <p className='text-[20px] sm:text-[28px] md:text-[32px] leading-[100%] text-center text-white pb-10 lg:pb-15'>
           NONE OF THEM ARE AS STRONG AS ALL OF US
         </p>
         <div className='flex flex-col sm:flex-row justify-center items-center gap-4 text-center pb-[30px] md:pb-[70px] lg:pb-[96px]'>

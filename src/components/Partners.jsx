@@ -49,8 +49,8 @@ const Partners = () => {
         {PARTNERS_DATA.map((obj, idx) => (
           <div
             key={idx}
-            className="w-full max-w-[425px] flex flex-col text-left px-4 mx-auto h-full bg-white">
-            <div className="h-[100px] sm:h-[130px] md:h-[150px] w-full mb-[30px] sm:mb-[40px] md:mb-[50px] flex items-start">
+            className="w-full max-w-[425px] flex flex-col text-left px-2 mx-auto h-full bg-white">
+            <div className="h-[130px] sm:h-[160px] md:h-[202px] w-full mb-[30px] sm:mb-[40px] md:mb-[50px] flex items-start">
               <img
                 src={obj.logo}
                 alt={obj.name}
@@ -58,13 +58,13 @@ const Partners = () => {
               />
             </div>
             <div className="flex flex-col flex-grow">
-              <h3 className="text-[22px] sm:text-[24px] md:text-[28px] font-extrabold pb-[20px] sm:pb-[24px] md:pb-[30px] leading-[120%] min-h-[60px]">
+              <h3 className="text-[22px] sm:text-[24px] md:text-[28px] font-extrabold pb-[20px] sm:pb-[24px] md:pb-[30px] leading-[100%] min-h-[60px]">
                 {obj.name}
               </h3>
-              <p className="text-lg sm:text-xl md:text-2xl text-black leading-[100%] pb-[20px] md:pb-[26px]">
+              <p className="text-lg sm:text-xl md:text-2xl text-black leading-[100%]  ">
                 -{obj.role}
                 <br />
-                <span className="block mt-2">{obj.description}</span>
+                <span className="block mt-4 lg:mt-[26px]  leading-[120%]">{obj.description}</span>
               </p>
             </div>
           </div>
