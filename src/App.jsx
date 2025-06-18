@@ -14,12 +14,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {/* <Hero />
+      <Hero />
       <Notify />
       <Journey />
       <Avatars />
       <Storytelling />
-      <Team /> */}
+      <Team />
       <Charlie />
       <Partners />
       <Footer />
