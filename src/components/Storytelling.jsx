@@ -15,14 +15,14 @@ const Storytelling = () => {
                 className="w-full sm:w-[80%] md:w-[45%] lg:w-[30%] px-3"
               >
                 <img className="mx-auto" src={item.Image} alt="profile-image" />
-                <p className="max-w-[410px] mx-auto text-xl sm:text-2xl leading-[120%] pt-10 sm:pt-[71px]">
+                <p className="max-w-[410px] mx-auto text-xl sm:text-2xl leading-[120%] pt-10 sm:pt-[71px] ff-neue">
                   <span className="font-extrabold">{item.name} </span>
                   {item.description}
                 </p>
-                <p className="text-xl sm:text-2xl leading-[120%] pt-8 sm:pt-[50px] max-w-[427px] mx-auto">
+                <p className="text-xl sm:text-2xl leading-[120%] pt-8 sm:pt-[50px] max-w-[427px] mx-auto ff-courir">
                   {item.descriptionTwo}
                 </p>
-                <p className="text-xl sm:text-2xl leading-[120%] pt-8 sm:pt-[50px] max-w-[411px] mx-auto">
+                <p className="text-xl sm:text-2xl leading-[120%] pt-8 sm:pt-[50px] max-w-[411px] mx-auto ff-courir">
                   {item.descriptionThree}
                 </p>
               </div>
