@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Description = () => {
+const Description = ({ descriptionClass, descriptionText, spanText }) => {
   return (
-    <div>
-      
-    </div>
+    <p className={`text-2xl leading-[120%] ${descriptionClass}`}>{descriptionText} {spanText} </p>
   )
 }
 
