@@ -23,4 +23,27 @@ export const TEAM_DATA = [
         descriptionTwo: `He started out as the founding editor of RWD, where he met Vector and Charlie. Together, they helped grow RWD into one of the largest digital music platforms in the UK. Mason went on to serve as marketing head and Chief Content Ocer at BitTorrent, where he led the team that created BitTorrent Bundle - a decentralized content distribution platform launched in 2011 with the help of Thom Yorke, Skrillex, Gramatik, Linkin Park and Madonna, serving 175 million monthly users`,
         descriptionThree: `He then ran an innovation lab for Sony Pictures, served as CMO of cryptocurrency exchange Kraken, and is now Chief Content Ocer of Palm NFT Studio: and has helped create and launch projects including The Currency by Damien Hirst, and DC Comics NFT platform among others. Matt was once named ‘Best Pirate’ by Bloomberg Businessweek, and made the #11 spot on Fast Company's 100 Most Creative People in Business list`
     },
+import JourneyImgOne from "../assets/images/png/journey-img-1.png"
+import JourneyImgTwo from "../assets/images/png/journey-img-2.png"
+import JourneyImgThree from "../assets/images/png/journey-img-3.png"
+export const JOURNEY_DATA = [
+    {
+        img: JourneyImgOne,
+        span: "5,454",
+        heading: " generative Broadside heroes.",
+        title: "Each with unique names, features and traits.",
+        description: "Including 1/1s, legendaries and rarity pulled from a total of 201 billion unique combinations"
+    },
+    {
+        img: JourneyImgTwo,
+        span: "11 Episodic NFTs",
+        heading: "telling the story of your specific character",
+        description: "(all of which is already written) with new art for each episode, will be airdropped bi- weekly to Broadside holders"
+    },
+    {
+        img: JourneyImgThree,
+        span: "Month 6:",
+        heading: "Merge and burn Episode NFTs into a 1 /1 full book NFT.",
+        description: "Featuring your specic character with exclusive 1 of 1 art - with epub les of your character’s story so you can print / sell copies, including print - on demand options for physical copies."
+    }
 ]
