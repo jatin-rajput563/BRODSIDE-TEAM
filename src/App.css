@@ -9,6 +9,6 @@ body {
     font-family: 'Neue Machina', sans-serif;
 }
 
-/* . ff-neue */
-
- /* ff-courir */
+.notify-bg{
+    background-image: url(../src/assets/images/png/notify-bg-img.png) !important;
+}
