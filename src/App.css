@@ -11,4 +11,10 @@ body {
 
 .notify-bg{
     background-image: url(../src/assets/images/png/notify-bg-img.png) !important;
+    src: url('./assets/Fonts/NeueMachina-PlainRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Neue Machina';
 }
