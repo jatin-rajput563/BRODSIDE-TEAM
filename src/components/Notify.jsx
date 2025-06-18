@@ -14,7 +14,12 @@ const Notify = () => {
           <CustomButton btnText="NOTIFY ME" btnClass="!bg-[#7BFFCC] !border-black !border-[5px] !whitespace-nowrap max-md:!w-full" />
         </div>
         <div className='pt-10 flex items-center gap-6'>
-          <img src={twitter} alt="" className='md:w-[65px] w-10 cursor-pointer' />
+          <img
+            src={twitter}
+            alt="Twitter"
+            className="md:w-[65px] w-10 cursor-pointer transition duration-300 ease-in-out hover:scale-110 hover:brightness-110"
+          />
+
           <Heading headingText="Follow on Twitter" headingClass="md:!text-[30px] !text-xl" />
         </div>
      </div>
