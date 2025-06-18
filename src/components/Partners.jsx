@@ -5,7 +5,7 @@ import { PARTNERS_DATA } from '../utils/helper'
 const Partners = () => {
   return (
     <div className="max-w-[1320px] mx-auto px-4 lg:px-0">
-      <h2 className="text-[36px] sm:text-[48px] md:text-[64px] lg:text-[75px]  mb-10 leading-[100%] pt-[60px] md:pt-[92px] pb-[40px] md:pb-[60px] text-center md:text-left font-extrabold">-Partners</h2>
+      <h2 className="text-[36px] sm:text-[48px] md:text-[64px] lg:text-[75px]  mb-10 leading-[100%] pt-[40px] md:pt-[92px] md:pb-[60px] text-center md:text-left font-extrabold">-Partners</h2>
       <div className="grid gap-8 sm:gap-12 md:gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start">
         {PARTNERS_DATA.map((obj, index) => (
           <div
