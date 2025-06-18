@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Storytelling = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <div className="min-h-screen"> 
 
-export default Storytelling
+      </div>
+    </>
+  );
+};
+
+export default Storytelling;

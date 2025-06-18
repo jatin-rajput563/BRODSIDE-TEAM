@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('./assets/Fonts/NeueMachina-PlainUltrabold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Neue Machina', sans-serif;
+}
