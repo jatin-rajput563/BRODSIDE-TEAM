@@ -4,13 +4,14 @@
     font-family: 'Neue Machina';
     src: url('../assets/fonts/NeueMachina-Regular.otf');
     src: url('../assets/fonts/cour.ttf');
+    src: url('../assets/fonts/NeueMachina-Light.otf');
 }
 
 body {
     font-family: 'Neue Machina', sans-serif;
 }
 
-.ff-courir {
+.ff-courier {
     font-family: "Courier New";
 }
 
