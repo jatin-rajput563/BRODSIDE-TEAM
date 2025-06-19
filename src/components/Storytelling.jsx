@@ -5,7 +5,7 @@ import { STORYTELLING_DATA } from "../utils/helper";
 const Storytelling = () => (
   <div className="">
     <Heading
-      headingClass="py-[40px] sm:py-[60px] md:py-[82px] max-w-[1320px] mx-auto px-3"
+      headingClass="py-[40px] sm:py-[60px] md:py-[82px] max-w-[1320px] mx-auto px-3 max-xl:!pl-6 max-xl:!text-[65px] max-lg:!text-[48px] max-md:!text-[44px] "
       headingText="-Starting with Storytelling..."
     />
     <div className="flex flex-wrap justify-center">

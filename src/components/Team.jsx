@@ -7,7 +7,7 @@ const Team = () => {
     <>
       <div className="md:py-[82px] py-10">
         <div className="max-w-[1320px] mx-auto px-3">
-          <Heading headingText="-The Team..." headingClass="text-left" />
+          <Heading headingText="-The Team..." headingClass="text-left max-xl:!pl-6" />
           <div className="flex flex-wrap justify-center gap-y-16 gap-x-8 md:mt-[100px] mt-[50px]">
             {TEAM_DATA.map((item, index) => (
               <div
