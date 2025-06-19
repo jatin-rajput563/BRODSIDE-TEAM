@@ -23,7 +23,7 @@ body {
 }
 
 .notify-bg {
-    background-image: url(../src/assets/images/png/notify-bg-img.png) !important;
+    background-image: url("../src/assets/images/png/notify-bg-img.png") !important;
 }
 
 .input-placeholder::placeholder {
