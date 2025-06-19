@@ -7,7 +7,7 @@ const Journey = () => {
     <>
       <div className="max-w-[1440px] mx-auto lg:pt-20 md:pt-14 pt-10">
         <Heading
-          headingClass={"pl-5 sm:pl-10 md:pl-[56px]"}
+          headingClass={"px-5 sm:pl-10 md:pl-[56px]"}
           headingText={"-The Journey Ahead..."}
         />
         <div className="flex lg:mt-20.5 md:mt-14 mt-8 max-xl:flex-wrap">
