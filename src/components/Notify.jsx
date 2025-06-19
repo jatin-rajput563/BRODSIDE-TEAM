@@ -11,7 +11,7 @@ const Notify = () => {
         <Heading headingText="Are you ready?" headingClass="md:!text-[30px] !text-xl !pb-10" />
         <div className='gap-[14px] flex max-md:flex-wrap lg:justify-center'>
           <CustomInput inputClass="!bg-[#FEFDFF] !w-full xl:!max-w-[730px] !text-black" />
-          <CustomButton btnText="NOTIFY ME" btnClass="!bg-[#7BFFCC] !border-black !border-[5px] !whitespace-nowrap max-md:!w-full" />
+          <CustomButton btnText="NOTIFY ME" btnClass="!bg-[#7BFFCC] !border-black !border-[5px] hover:!bg-black  !whitespace-nowrap max-md:!w-full" />
         </div>
         <div className='pt-10 flex items-center gap-6'>
           <img
