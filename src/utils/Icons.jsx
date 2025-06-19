@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
 export const TopArrow = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="16"
-    height="16"
-    fill="currentColor"
-    class="bi bi-arrow-up-circle"
+    width="28"
+    height="28"
+    fill="white"
+    className="bi bi-arrow-up"
     viewBox="0 0 16 16"
   >
     <path
