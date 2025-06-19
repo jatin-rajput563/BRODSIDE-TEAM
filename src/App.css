@@ -1,13 +1,17 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: 'Neue Machina';
-    src: url('../assets/fonts/NeueMachina-Regular.otf');
+    font-family: 'courier New';
     src: url('../assets/fonts/cour.ttf');
 }
 
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('../assets/fonts/NeueMachina-Regular.otf');
+}
+
 body {
-    font-family: 'Neue Machina', sans-serif;
+    font-family: 'Neue Machina';
 }
 
 .ff-courir {
