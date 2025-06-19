@@ -13,15 +13,15 @@ const Notify = () => {
           <CustomInput inputClass="!bg-[#FEFDFF] !w-full xl:!max-w-[730px] !text-black" />
           <CustomButton btnText="NOTIFY ME" btnClass="!bg-[#7BFFCC] !border-black !border-[5px] hover:!bg-black max-md:py-5 !whitespace-nowrap max-md:!w-full" />
         </div>
-          <a href='https://x.com/' target='_blank'
-            rel='noopener noreferrer' className='flex items-center pt-10 gap-6'>
-            <img
-              src={twitter}
-              alt="Twitter"
-              className="md:w-[65px] w-10 cursor-pointer transition duration-300 ease-in-out hover:scale-110 hover:brightness-110"
-            />
-            <Heading headingText="Follow on Twitter" headingClass="md:!text-[30px] !text-xl" />
-          </a>
+        <a href='https://x.com/' target='_blank'
+          rel='noopener noreferrer' className='flex items-center pt-10 gap-6 max-w-max'>
+          <img
+            src={twitter}
+            alt="Twitter"
+            className="md:w-[65px] w-10 cursor-pointer transition duration-300 ease-in-out hover:scale-110 hover:brightness-110"
+          />
+          <Heading headingText="Follow on Twitter" headingClass="md:!text-[30px] !text-xl" />
+        </a>
       </div>
     </div>
   )
