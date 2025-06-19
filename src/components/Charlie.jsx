@@ -4,7 +4,7 @@ import charliesIcon from '../assets/images/png/charlie-icon-img.png';
 const Charlie = () => {
   return (
     <div className="bg-[#D8D8D8]">
-      <div className="max-w-[1090px] mx-auto flex flex-col justify-center items-center text-center px-4 lg:px-0 py-[40px] sm:py-[50px] md:py-[62px]">
+      <div className="max-w-[1090px] mx-auto flex flex-col justify-center items-center text-center px-6 lg:px-4 xl:px-0 py-[40px] sm:py-[50px] md:py-[62px]">
         <img
           src={charliesIcon}
           alt="Charlie Icon"

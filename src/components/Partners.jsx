@@ -5,13 +5,13 @@ import { PARTNERS_DATA } from '../utils/helper'
 const Partners = () => {
   return (
     <div className="max-w-[1320px] mx-auto px-4 lg:px-0">
-      <h2 className="text-[36px] sm:text-[48px] md:text-[64px] lg:text-[75px]  mb-10 leading-[100%] pt-[60px] md:pt-[92px] pb-[40px] md:pb-[60px] text-center md:text-left font-extrabold">-Partners</h2>
-      <div className="grid gap-8 sm:gap-12 md:gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start">
+      <h2 className="text-[36px] sm:text-[48px] md:text-[64px] lg:text-[75px]  mb-6 lg:mb-10 leading-[100%] pt-[30px] sm:pt-[60px] md:pt-[92px] pb-[30px] sm:pb-[40px] md:pb-[60px] text-center md:text-left font-extrabold">-Partners</h2>
+      <div className="grid gap-4 md:gap-8 lg:gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start">
         {PARTNERS_DATA.map((obj, index) => (
           <div
             key={index}
             className="w-full max-w-[425px] flex flex-col text-left px-2 mx-auto h-full bg-white">
-            <div className="h-[130px] sm:h-[160px] md:h-[202px] w-full mb-[30px] sm:mb-[40px] md:mb-[50px] flex items-start">
+            <div className=" h-[80px] sm:h-[130px] md:h-[150px] lg:h-[202px] w-full mb-[30px] sm:mb-[40px] md:mb-[50px] flex items-start">
               <img
                 src={obj.images}
                 alt={obj.name}
@@ -27,7 +27,7 @@ const Partners = () => {
           </div>
         ))}
       </div>
-      <img src={logo} alt="logo" className="mx-auto mt-[40px] md:mt-[52px]" />
+      <img src={logo} alt="logo" className="mx-auto mt-[40px] md:mt-[52px] xl:px-0 px-4" />
     </div>
   )
 }
