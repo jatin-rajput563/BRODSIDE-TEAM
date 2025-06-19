@@ -18,7 +18,7 @@ const Avatars = () => {
               <Description
                 descriptionClass="min-[1440px]:max-w-[410px]"
                 descriptionText="Collection features rare cc0 traits contributed by guest artists and from projects including:"
-                spanClass="min-[1440px]:max-w-[347px]"
+                spanClass="min-[1440px]:max-w-[347px] pt-3 sm:pt-[22px] block"
                 spanText="XCOPY, Rektguy, Moonbirds, Goblintown, Nouns, Blitmaps, Kristy Glas, Cryptoadz, Eclectic Method, Grillz Gang, Robness, Max Osiris"
               />
               <Description descriptionText="and more." />
