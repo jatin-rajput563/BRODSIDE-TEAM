@@ -26,3 +26,6 @@ body {
     background-image: url(../src/assets/images/png/notify-bg-img.png) !important;
 }
 
+.input-placeholder::placeholder {
+    color: #070004;
+}
