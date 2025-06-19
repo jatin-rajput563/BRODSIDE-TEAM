@@ -25,12 +25,12 @@ const Avatars = () => {
             </div>
           </div>
           <div className="bg-[#999999] px-5 py-10 sm:py-12 md:py-15 lg:py-[78px] xl:pb-[169px] md:px-[55px] lg:pr-[100px]">
-            <Heading
-              headingClass={"max-w-[1065px] text-5xl lg:!text-[64px]"}
-              headingText={
-                "- Broadside Avatars offer two different licensing models: "
-              }
-            />
+            <h2 className="leading-[100%] ff-neue text-black text-[40px] sm:text-[50px] md:text-[60px] lg:text-[75px] max-w-[1190px]">
+              <span className="font-extrabold"> - Broadside Avatars</span>
+              offer
+              <span className="font-extrabold"> two </span>
+              different licensing models:{" "}
+            </h2>
             <div className="flex flex-wrap gap-5 justify-between mt-7 lg:mt-[60px]">
               <div className="min-xl:max-w-[528px] w-full">
                 <Heading
