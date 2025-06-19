@@ -10,6 +10,18 @@ import Charlie from "./components/Charlie";
 import Partners from "./components/Partners";
 import Footer from "./components/Footer";
 import BackToTop from "./components/common/Backtotop";
+import Lenis from "lenis";
+const lenis = new Lenis();
+
+lenis.on("scroll", (e) => {
+  console.log(e);
+});
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
 
 function App() {
   return (
