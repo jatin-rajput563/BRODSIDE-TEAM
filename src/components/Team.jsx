@@ -17,7 +17,7 @@ const Team = () => {
                 key={index}
                 className="w-full sm:w-[80%] md:w-[45%] lg:w-[30%] px-3"
               >
-                <img className="mx-auto pointer-events-none rounded-full max-w-[267px] max-h-[267px] w-full"  src={item.Image} alt="profile-image" />
+                <img className="mx-auto pointer-events-none rounded-full max-w-[267px] max-h-[267px] w-full"  src={item.image} alt="profile-image" />
                 <p className="max-w-[410px] mx-auto text-xl sm:text-2xl leading-[120%] pt-10 sm:pt-[71px] ff-courier">
                   <span className="font-extrabold ff-neue">{item.name} </span>
                   {item.description}

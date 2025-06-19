@@ -27,7 +27,6 @@ function App() {
   return (
     <>
       <Hero />
-      <BackToTop />
       <Notify />
       <Journey />
       <Avatars />
@@ -36,6 +35,7 @@ function App() {
       <Charlie />
       <Partners />
       <Footer />
+      <BackToTop />
     </>
   );
 }
