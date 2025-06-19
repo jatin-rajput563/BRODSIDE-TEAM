@@ -19,10 +19,10 @@ const Team = () => {
                   <span className="font-extrabold">{item.name} </span>
                   {item.description}
                 </p>
-                <p className="text-xl sm:text-2xl leading-[120%] pt-8 sm:pt-[50px] max-w-[427px] mx-auto ff-courir">
+                <p className="text-xl sm:text-2xl leading-[120%] pt-8 sm:pt-[50px] max-w-[427px] mx-auto ff-courier">
                   {item.descriptionTwo}
                 </p>
-                <p className="text-xl sm:text-2xl leading-[120%] pt-8 sm:pt-[50px] max-w-[411px] mx-auto ff-courir">
+                <p className="text-xl sm:text-2xl leading-[120%] pt-8 sm:pt-[50px] max-w-[411px] mx-auto ff-courier">
                   {item.descriptionThree}
                 </p>
               </div>

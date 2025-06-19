@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='w-full max-w-[1029px] mx-auto px-4 lg:px-2 '>
         <div className='flex flex-col md:flex-row gap-4 md:gap-[47px] py-6 md:py-[50px] items-center'>
           <CustomInput inputClass="bg-white w-full w-[730px] !text-black " />
-          <CustomButton btnClass="bg-[#FFF173] w-full md:w-auto md:whitespace-nowrap px-[27px] hover:text-[#FFF173] hover:bg-black" btnText="NOTIFY ME" />
+          <CustomButton btnClass="bg-[#FFF173] w-full md:w-auto md:whitespace-nowrap px-[27px]" btnText="NOTIFY ME" />
           </div>
         <p className='text-lg sm:text-xl md:text-2xl leading-[120%] text-white text-center max-w-[395px] mx-auto'>
           100% ORGANIC COMMUNITY NO PAID INFLUENCERS NO PAID ADS</p>
