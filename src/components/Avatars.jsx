@@ -26,7 +26,7 @@ const Avatars = () => {
           </div>
           <div className="bg-[#999999] px-5 py-10 sm:py-12 md:py-15 lg:py-[78px] xl:pb-[169px] md:px-[55px] lg:pr-[100px]">
             <h2 className="leading-[100%] ff-neue text-black text-[40px] sm:text-[50px] md:text-[60px] lg:text-[75px] max-w-[1190px]">
-              <span className="font-extrabold"> - Broadside Avatars</span>
+              <span className="font-extrabold"> - Broadside Avatars </span>
               offer
               <span className="font-extrabold"> two </span>
               different licensing models:{" "}
