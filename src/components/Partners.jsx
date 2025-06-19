@@ -1,7 +1,7 @@
-import React from 'react'
-import logo from '../assets/images/svg/footer-logo.svg'
-import { PARTNERS_DATA } from '../utils/helper'
-import Heading from './common/Heading'
+import React from "react";
+import logo from "../assets/images/svg/footer-logo.svg";
+import { PARTNERS_DATA } from "../utils/helper";
+import Heading from "./common/Heading";
 
 const Partners = () => {
   return (
@@ -40,7 +40,7 @@ const Partners = () => {
         className="mx-auto mt-10 md:mt-13 xl:px-0 px-4"
       />
     </div>
-  )
-}
+  );
+};
 
-export default Partners
+export default Partners;

@@ -70,7 +70,7 @@ const Hero = () => {
       <div className="absolute right-[5%] z-10">
         <img src={logo} alt="logo" />
       </div>
-      <div className="absolute md:top-[33%] top-[72%] xl:left-[6%] md:left-[3%] left-[21%] z-10">
+      <div className="absolute md:top-[33%] top-[69%] xl:left-[6%] md:left-[3%] left-[21%] z-10">
         <Description
           descriptionText="WELCOME TO BROADSIDE..."
           descriptionClass="!font-light md:!text-left max-md:text-base !uppercase !tracking-wide !text-white"
@@ -112,10 +112,10 @@ const Hero = () => {
           headingClass="!text-white xl:!text-[40px] md:!text-3xl !text-2xl !pt-3 !whitespace-nowrap"
         />
       </div>
-      <div className="absolute md:bottom-[2%] bottom-[35%] xl:left-[12%] lg:left-[5%] z-10">
+      <div className="absolute md:bottom-[2%] bottom-[36%] xl:left-[12%] lg:left-[0%] z-10">
         <Heading
           headingText="A DECENTRALIZED TALE OF 5,454 ANONYMOUS HEROES"
-          headingClass="!text-white max-xl:!text-[40px]  max-lg:!text-4xl max-md:!text-[26px] max-xl:text-center"
+          headingClass="!text-white max-xl:!text-[40px]  max-lg:!text-4xl max-md:!text-2xl max-xl:text-center"
         />
       </div>
     </div>

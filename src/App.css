@@ -2,17 +2,18 @@
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('src/assets/Fonts/NeueMachina-PlainRegular.otf');
+    src: url('../assets/fonts/NeueMachina-Regular.otf');
+    src: url('../assets/fonts/cour.ttf');
 }
 
 body {
     font-family: 'Neue Machina', sans-serif;
 }
 
-.notify-bg{
-    background-image: url(../src/assets/images/png/notify-bg-img.png) !important;
-    src: url('./assets/Fonts/NeueMachina-PlainRegular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+.ff-courir {
+    font-family: "Courier New";
 }
 
+.notify-bg {
+    background-image: url(../src/assets/images/png/notify-bg-img.png) !important;
+}

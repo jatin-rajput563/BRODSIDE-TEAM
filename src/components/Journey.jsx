@@ -6,9 +6,9 @@ const Journey = () => {
   return (
     <>
       <div className="px-4">
-        <div className="max-w-[1440px] mx-auto">
+        <div className="max-w-[1440px] mx-auto lg:pt-20 md:pt-14 pt-10">
           <Heading headingText={"-The Journey Ahead..."} />
-          <div className="flex mt-20.5 flex-wrap">
+          <div className="flex lg:mt-20.5 md:mt-14 mt-10 flex-wrap">
             {JOURNEY_DATA.map((item, index) => (
               <div key={index} className="max-[1438px]:mx-auto max-[1438px]:mb-6">
                 <img
