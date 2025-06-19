@@ -12,8 +12,7 @@ const Footer = () => {
           <CustomButton btnClass="bg-[#FFF173] w-full md:w-auto md:whitespace-nowrap px-[27px] hover:text-[#FFF173] hover:bg-black" btnText="NOTIFY ME" />
           </div>
         <p className='text-lg sm:text-xl md:text-2xl leading-[120%] text-white text-center max-w-[395px] mx-auto'>
-          100% ORGANIC COMMUNITY NO PAID INFLUENCERS NO PAID ADS
-        </p>
+          100% ORGANIC COMMUNITY NO PAID INFLUENCERS NO PAID ADS</p>
         <p className='text-[20px] sm:text-[28px] md:text-[32px] leading-[100%] text-center text-white pb-10 lg:pb-15'>
           NONE OF THEM ARE AS STRONG AS ALL OF US</p>
         <div className='flex flex-col sm:flex-row justify-center items-center gap-4 text-center pb-[30px] md:pb-[70px] lg:pb-[96px]'>
@@ -30,7 +29,7 @@ const Footer = () => {
             <img
               src={twitter}
               alt="Twitter Icon"
-              className='hover:transition-transform duration-300 hover:scale-105'
+              className=' hover:transition-transform duration-300 hover:scale-105'
             />
           </a>
         </div>
