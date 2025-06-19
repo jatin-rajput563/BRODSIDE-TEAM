@@ -46,7 +46,7 @@ const Hero = () => {
       <div className="absolute md:top-[33%] top-[65%] xl:left-[6%] md:left-[3%] left-[21%] z-10">
         <Description
           descriptionText="WELCOME TO BROADSIDE..."
-          descriptionClass="!font-light md:!text-left !uppercase !tracking-wide !text-white/70"
+          descriptionClass="!font-light md:!text-left !uppercase !tracking-wide !leading-[50%] !text-white/70"
         />
         <Description
           descriptionText="ACCEPT! REJECT!"
