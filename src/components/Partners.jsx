@@ -21,7 +21,7 @@ const Partners = () => {
                 className="h-full object-contain object-left  pointer-events-none"/>
             </div>
             <div className="flex flex-col flex-grow">
-              <h3 className="text-[22px] sm:text-2xl md:text-[28px] font-extrabold pb-2 sm:pb-6 md:pb-8 leading-none min-h-[60px]">
+              <h3 className="text-[22px] sm:text-2xl md:text-[28px] font-extrabold pb-2 sm:pb-6 md:pb-8 lg:min-h-[60px]">
                 {obj.name}
               </h3>
               <p className="text-lg sm:text-xl md:text-2xl text-black leading-none ff-courier">
