@@ -31,8 +31,8 @@ const Avatars = () => {
                 "- Broadside Avatars offer two different licensing models: "
               }
             />
-            <div className="flex flex-wrap gap-5 justify-between mt-[60px]">
-              <div className="min-[1272px]:max-w-[528px] w-full">
+            <div className="flex flex-wrap gap-5 justify-between mt-7 lg:mt-[60px]">
+              <div className="min-xl:max-w-[528px] w-full">
                 <Heading
                   headingClass={
                     "!text-[100px] md:text-[150px] lg:!text-[230.73px] text-white"
@@ -47,7 +47,7 @@ const Avatars = () => {
                   }
                 />
               </div>
-              <div className="min-[1272px]:max-w-[529px] w-full max-[1272px]:mt-6">
+              <div className="min-xl:max-w-[529px] w-full">
                 <Heading
                   headingClass={"text-[30px] md:!text-[64.71px] text-white"}
                   headingText={"FULL COMMERCIAL RIGHTS"}
