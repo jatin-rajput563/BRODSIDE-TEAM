@@ -8,7 +8,7 @@ const Partners = () => {
     <div className="max-w-[1320px] mx-auto px-4 lg:px-0">
       <Heading
         headingText="-Partners"
-        headingClass="mb-4 lg:mb-10 leading-none py-8 sm:py-10 md:pt-18 lg:pt-24  md:pb-13 lg::pb-16  pl-5 "/>
+        headingClass="mb-4 lg:mb-10 leading-none py-[40px] sm:py-[60px] md:py-[82px]  pl-5 "/>
       <div className=" flex flex-wrap justify-center  mx-auto   ">
         {PARTNERS_DATA.map((obj, index) => (
           <div

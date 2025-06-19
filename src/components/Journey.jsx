@@ -5,7 +5,7 @@ import { JOURNEY_DATA } from "../utils/helper";
 const Journey = () => {
   return (
     <>
-      <div className="max-w-[1440px] mx-auto lg:pt-20 md:pt-14 pt-12">
+      <div className="max-w-[1440px] mx-auto lg:pt-20 md:pt-14 pt-10">
         <Heading
           headingClass={"pl-5 sm:pl-10 md:pl-[56px]"}
           headingText={"-The Journey Ahead..."}
@@ -23,7 +23,7 @@ const Journey = () => {
                   className={`text-[28px] font-normal leading-[96%] ${index === 0 ? "max-w-[300px]" : "max-w-[365px]"
                     }`}
                 >
-                  <span className="font-extrabold">{item.time}</span>
+                  <span className="font-extrabold">{item.time} </span>
                   {item.heading}
                 </p>
                 {index === 0 && (
