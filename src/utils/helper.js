@@ -1,9 +1,9 @@
-import vector from '../assets/images/png/vector-profile-pic.png'
+import Meldrew from '../assets/images/png/vector-profile-pic.png'
 import charlie from '../assets/images/png/charlie-profile-pic.png'
 import matt from '../assets/images/png/matt-profile-pic.png'
-import JourneyImgOne from "../assets/images/png/journey-img-1.png"
-import JourneyImgTwo from "../assets/images/png/journey-img-2.png"
-import JourneyImgThree from "../assets/images/png/journey-img-3.png"
+import journeyImgOne from "../assets/images/png/journey-img-1.png"
+import journeyImgTwo from "../assets/images/png/journey-img-2.png"
+import journeyImgThree from "../assets/images/png/journey-img-3.png"
 import storyImg1 from "../assets/images/png/story-img-1.png"
 import storyImg2 from "../assets/images/png/story-img-2.png"
 import storyImg3 from "../assets/images/png/story-img-3.png"
@@ -14,20 +14,20 @@ import fkksImg from "../assets/images/png/fkks-img.png";
 
 export const JOURNEY_DATA = [
     {
-        img: JourneyImgOne,
+        img: journeyImgOne,
         span: "5,454",
         heading: " generative Broadside heroes.",
         title: "Each with unique names, features and traits.",
         description: "Including 1/1s, legendaries and rarity pulled from a total of 201 billion unique combinations"
     },
     {
-        img: JourneyImgTwo,
+        img: journeyImgTwo,
         span: "11 Episodic NFTs",
         heading: "telling the story of your specific character",
         description: "(all of which is already written) with new art for each episode, will be airdropped bi- weekly to Broadside holders"
     },
     {
-        img: JourneyImgThree,
+        img: journeyImgThree,
         span: "Month 6:",
         heading: "Merge and burn Episode NFTs into a 1 /1 full book NFT.",
         description: "Featuring your specic character with exclusive 1 of 1 art - with epub les of your character’s story so you can print / sell copies, including print - on demand options for physical copies."
@@ -36,7 +36,7 @@ export const JOURNEY_DATA = [
 
 export const TEAM_DATA = [
     {
-        Image: vector,
+        Image: Meldrew,
         name: "Vector Meldrew",
         description: "  is a globally recognized crypto artist, VJ and creative. Pieces and collections by Vector have been auctioned at Bonhams, and regularly sell out on platforms including Nifty Gateway and SuperRare among others.",
         descriptionTwo: `As a VJ he’s toured globally, performing at Glastonbury (UK), LEV (Belgium), Mapping Festival (Switzerland), Ministry of Sound, the O2 in London, and can be found hosting parties across the metaverse. As a director his lms have screened on Adult Swim, VICE, Aesthetica, The Smalls, and at the Berlin Music Video Awards. He co-directed title sequences and cut-scenes on 2 x James Bond games, aswell as other AAA franchises. For 3 years he taught ‘Storytelling’ at Hyper Island, Sweden.`,
@@ -86,19 +86,19 @@ export const STORYTELLING_DATA = [
 
 export const PARTNERS_DATA = [
     {
-        images: dazzleShipImg,
+        image: dazzleShipImg,
         name: "DAZZLE SHIP...",
         role: "Creative Production Studio",
         description: "Working across fashion, gaming, music & tech. Previous clients include: The James Bond Franchise, Activision, Microsoft and Drone Racing League.",
     },
     {
-        images: nervousImg,
+        image: nervousImg,
         name: "Nervous",
         role: "Web3 Dev Team",
         description: "Previously known for: AdamBombSquad, Warpsound_ai, LessThanJake",
     },
     {
-        images: fkksImg,
+        image: fkksImg,
         name: "FKKS",
         role: "IP Rights / Terms",
         description: "Jeremy Goldman and Zach Lewis @ Frankfurt Kurnit Klein & Selz PC",
