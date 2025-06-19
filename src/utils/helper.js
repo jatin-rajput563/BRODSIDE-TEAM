@@ -15,20 +15,20 @@ import fkksImg from "../assets/images/png/fkks-img.png";
 export const JOURNEY_DATA = [
     {
         img: journeyImgOne,
-        span: "5,454",
+        time: "5,454",
         heading: " generative Broadside heroes.",
         title: "Each with unique names, features and traits.",
         description: "Including 1/1s, legendaries and rarity pulled from a total of 201 billion unique combinations"
     },
     {
         img: journeyImgTwo,
-        span: "11 Episodic NFTs",
+        time: "11 Episodic NFTs",
         heading: "telling the story of your specific character",
         description: "(all of which is already written) with new art for each episode, will be airdropped bi- weekly to Broadside holders"
     },
     {
         img: journeyImgThree,
-        span: "Month 6:",
+        time: "Month 6:",
         heading: "Merge and burn Episode NFTs into a 1 /1 full book NFT.",
         description: "Featuring your specic character with exclusive 1 of 1 art - with epub les of your character’s story so you can print / sell copies, including print - on demand options for physical copies."
     }
