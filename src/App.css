@@ -10,11 +10,6 @@
     src: url('../assets/fonts/NeueMachina-Regular.otf');
 }
 
-@font-face {
-    font-family: 'Neue Machin';
-    src: url('../assets/fonts/PPNeueMachina-PlainRegular.otf');
-}
-
 body {
     font-family: 'Neue Machina';
 }
