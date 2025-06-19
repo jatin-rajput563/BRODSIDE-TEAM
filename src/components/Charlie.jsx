@@ -3,8 +3,8 @@ import charliesIcon from '../assets/images/png/charlie-icon-img.png';
 
 const Charlie = () => {
   return (
-    <div className="bg-gray-300  ">
-      <div className='max-w-[1320px] mx-auto'>
+    <div className=" max-w-[1920px]   mx-auto">
+      <div className='bg-gray-300'>
       <div className="max-w-[1090px] mx-auto flex flex-col justify-center items-center text-center px-6 lg:px-4 xl:px-0 py-10 sm:py-12 md:py-16">
         <img
           src={charliesIcon}
