@@ -43,16 +43,16 @@ const Hero = () => {
         <img src={logo} alt="logo" />
       </div>
 
-      <div className="absolute md:top-[33%] top-[65%] xl:left-[6%] md:left-[3%] left-[21%] z-10">
+      <div className="absolute md:top-[35%] top-[65%] xl:left-[6%] md:left-[3%] left-[18%] z-10">
         <Description
           descriptionText="WELCOME TO BROADSIDE..."
-          descriptionClass="!font-light md:!text-left !uppercase !tracking-wide !text-white/70"
+          descriptionClass="!font-light md:!text-left md:!leading-[50%] max-md:!text-lg !leading-[34%] md:!text-white/70 !text-white !whitespace-nowrap !uppercase !tracking-wide"
         />
         <Description
           descriptionText="ACCEPT! REJECT!"
-          descriptionClass="!mb-5 !font-light md:!text-left !text-center !uppercase !tracking-wide !text-white/70"
+          descriptionClass="!mb-8 !font-light md:!text-left md:!leading-[50%] max-md:!text-lg md:!text-white/70 !text-white  !uppercase !tracking-wide"
         />
-        <div className="text-sm font-light lg:text-lg xl:text-2xl text-white/70">
+        <div className="text-sm font-light lg:leading-[110%]  lg:text-lg xl:text-2xl md:text-white/70 text-white">
           <p>&gt; CONNECTING WALLETS.</p>
           <p>&gt; ESTABLISHING PERIMETER.</p>
           <p>&gt; RENDERING ARM0R.</p>
