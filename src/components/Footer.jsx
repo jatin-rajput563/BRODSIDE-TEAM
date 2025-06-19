@@ -15,10 +15,10 @@ const Footer = () => {
               btnText="NOTIFY ME"
             />
           </div>
-          <p className="text-lg sm:text-xl md:text-2xl leading-[120%] text-white text-center max-w-[395px] mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl leading-[120%] font-extrabold text-white text-center max-w-[388px] mx-auto">
             100% ORGANIC COMMUNITY NO PAID INFLUENCERS NO PAID ADS
           </p>
-          <p className="text-[20px] sm:text-[28px] md:text-[32px] leading-[100%] text-center text-white pb-10 lg:pb-15">
+          <p className="text-[20px] sm:text-[28px] md:text-[32px] font-extrabold leading-[100%] text-center text-white pb-10 lg:pb-15">
             NONE OF THEM ARE AS STRONG AS ALL OF US
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-center pb-[30px] md:pb-[70px] lg:pb-[96px]">
