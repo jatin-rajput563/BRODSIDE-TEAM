@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { TopArrow } from "../../utils/Icons";
+import { TopArrow } from '../../utils/Icons';
 
 const BackToTop = () => {
   const [showButton, setShowButton] = useState(false);
@@ -24,7 +24,7 @@ const BackToTop = () => {
           onClick={scrollToTop}
           className="fixed bottom-5 bg-black flex justify-center items-center border animate-bounce right-5 cursor-pointer z-10 size-10 rounded-full transition-all duration-200 ease-linear"
         >
-          <img src={TopArrow} alt="toparrow" />
+          <TopArrow />
         </div>
       )}
     </>

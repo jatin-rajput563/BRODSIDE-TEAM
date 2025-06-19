@@ -30,7 +30,7 @@ const Footer = () => {
             <img
               src={twitter}
               alt="Twitter Icon"
-              className=' hover:transition-transform duration-300 hover:scale-105'
+              className=' hover:transition-transform duration-300 hover:scale-105 pointer-events-none'
             />
           </a>
         </div>

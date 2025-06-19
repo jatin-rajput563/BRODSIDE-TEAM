@@ -1,19 +1,22 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: 'Courier New';
+    font-family: 'courier New';
     src: url('../assets/fonts/cour.ttf');
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('../assets/fonts/NeueMachina-Regular.otf');
 }
 
 @font-face {
     font-family: 'Neue Machin';
     src: url('../assets/fonts/PPNeueMachina-PlainRegular.otf');
-    /* src: url('../assets/fonts/PPNeueMachina-PlainUltrabold.otf'); */
-    /* src: url('../assets/fonts/PPNeueMachina-PlainLight.otf'); */
 }
 
 body {
-    font-family: 'Neue Machina', sans-serif;
+    font-family: 'Neue Machina';
 }
 
 .ff-courier {
