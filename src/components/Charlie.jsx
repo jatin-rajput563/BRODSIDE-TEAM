@@ -3,7 +3,7 @@ import charliesIcon from '../assets/images/png/charlie-icon-img.png';
 
 const Charlie = () => {
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gray-300 max-w-[1320px] mx-auto">
       <div className="max-w-[1090px] mx-auto flex flex-col justify-center items-center text-center px-6 lg:px-4 xl:px-0 py-10 sm:py-12 md:py-16">
         <img
           src={charliesIcon}
@@ -14,7 +14,7 @@ const Charlie = () => {
           <span> and </span>
           <span className="font-extrabold">Matt reconnected on Broadside</span>
           <span> because they saw a way to combine all they have learned into a decentralized franchise powered by NFTs that they believe can </span>
-          <span className="font-extrabold">help people understand and participate in the real and rapidly decentralizing world taking shape around us</span>
+          h<span className="font-extrabold">elp people understand and participate in the real and rapidly decentralizing world taking shape around us</span>
           <span>, as distributed technology continues to transform culture in exciting ways.</span>
         </p>
       </div>

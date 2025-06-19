@@ -16,7 +16,7 @@ const Partners = () => {
             className="w-full max-w-[425px] flex flex-col text-left px-4 xl:px-2 mx-auto h-full bg-white">
             <div className="h-20 sm:h-[130px] md:h-[150px] lg:h-[202px] w-full mb-8 sm:mb-10 md:mb-12 flex items-start">
               <img
-                src={obj.images}
+                src={obj.image}
                 alt={obj.name}
                 className="h-full object-contain object-left"/>
             </div>

@@ -19,7 +19,6 @@ const Notify = () => {
             alt="Twitter"
             className="md:w-[65px] w-10 cursor-pointer transition duration-300 ease-in-out hover:scale-110 hover:brightness-110"
           />
-
           <Heading headingText="Follow on Twitter" headingClass="md:!text-[30px] !text-xl" />
         </div>
      </div>

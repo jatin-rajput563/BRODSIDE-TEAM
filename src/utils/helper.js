@@ -86,19 +86,19 @@ export const STORYTELLING_DATA = [
 
 export const PARTNERS_DATA = [
     {
-        images: dazzleShipImg,
+        image: dazzleShipImg,
         name: "DAZZLE SHIP...",
         role: "Creative Production Studio",
         description: "Working across fashion, gaming, music & tech. Previous clients include: The James Bond Franchise, Activision, Microsoft and Drone Racing League.",
     },
     {
-        images: nervousImg,
+        image: nervousImg,
         name: "Nervous",
         role: "Web3 Dev Team",
         description: "Previously known for: AdamBombSquad, Warpsound_ai, LessThanJake",
     },
     {
-        images: fkksImg,
+        image: fkksImg,
         name: "FKKS",
         role: "IP Rights / Terms",
         description: "Jeremy Goldman and Zach Lewis @ Frankfurt Kurnit Klein & Selz PC",
