@@ -18,16 +18,16 @@ const Partners = () => {
           >
             <div className="h-20 sm:h-[130px] md:h-[150px] lg:h-[202px] w-full mb-8 sm:mb-10 md:mb-12 flex items-start">
               <img
-                src={obj.images}
+                src={obj.image}
                 alt={obj.name}
-                className="h-full object-contain object-left"
+                className="h-full object-contain object-left pointer-events-none"
               />
             </div>
             <div className="flex flex-col flex-grow">
               <h3 className="text-[22px] sm:text-2xl md:text-[28px] font-extrabold pb-2 sm:pb-6 md:pb-8 leading-none min-h-[60px]">
                 {obj.name}
               </h3>
-              <p className="text-lg sm:text-xl md:text-2xl text-black leading-none">
+              <p className="text-lg sm:text-xl md:text-2xl text-black leading-none ff-courier">
                 -{obj.role}
                 <span className="block mt-4 lg:mt-6 leading-[120%]">
                   {obj.description}
