@@ -37,7 +37,7 @@ const Partners = () => {
       <img
         src={logo}
         alt="logo"
-        className="mx-auto mt-10 md:mt-13  px-4"
+        className="mx-auto mt-10 md:mt-13 pointer-events-none  px-4"
       />
     </div>
   );
