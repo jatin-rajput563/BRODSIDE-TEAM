@@ -46,11 +46,11 @@ const Hero = () => {
       <div className="absolute md:top-[35%] top-[65%] xl:left-[6%] md:left-[3%] left-[18%] z-10">
         <Description
           descriptionText="WELCOME TO BROADSIDE..."
-          descriptionClass="!font-light md:!text-left md:!leading-[50%] max-md:!text-lg !leading-[34%] md:!text-white/70 !text-white !whitespace-nowrap !uppercase !tracking-wide"
+          descriptionClass="!font-light md:!text-left md:!leading-[65%] max-md:!text-lg !leading-[34%] md:!text-white/70 !text-white !whitespace-nowrap !uppercase !tracking-wide"
         />
         <Description
           descriptionText="ACCEPT! REJECT!"
-          descriptionClass="!mb-8 !font-light md:!text-left md:!leading-[50%] max-md:!text-lg md:!text-white/70 !text-white  !uppercase !tracking-wide"
+          descriptionClass="!mb-8 !font-light md:!text-left md:!leading-[80%] max-md:!text-lg md:!text-white/70 !text-white  !uppercase !tracking-wide"
         />
         <div className="text-sm font-light lg:leading-[110%]  lg:text-lg xl:text-2xl md:text-white/70 text-white">
           <p>&gt; CONNECTING WALLETS.</p>
