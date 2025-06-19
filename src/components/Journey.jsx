@@ -21,10 +21,10 @@ const Journey = () => {
               <div className="mt-5 md:mt-10 lg:mt-[50px] px-4">
                 <p
                   className={`text-[28px] font-normal leading-[96%] ${
-                    index === 0 ? "max-w-[315px]" : "max-w-[365px]"
+                    index === 0 ? "max-w-[300px]" : "max-w-[365px]"
                   }`}
                 >
-                  <span className="font-extrabold">{item.time}</span>{" "}
+                  <span className="font-extrabold">{item.time}</span>
                   {item.heading}
                 </p>
                 {index === 0 && (
