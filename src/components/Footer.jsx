@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="max-w-[1920px] mx-auto">
       <div className="bg-[#1154B0] flex justify-center items-center">
         <div className="w-full max-w-[1029px] mx-auto px-4 ">
-          <div className="flex flex-col md:flex-row  gap-4 lg:gap-6 xl:gap-[47px] py-6 md:py-[50px] items-center">
+          <div className="flex flex-col md:flex-row  gap-4 lg:gap-6 xl:gap-[47px] py-6 md:py-[50px] ">
             <CustomInput inputClass="bg-white w-full w-[730px] !text-black " />
             <CustomButton
               btnClass="bg-[#FFF173] w-full md:w-auto md:whitespace-nowrap px-[27px]"

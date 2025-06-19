@@ -8,19 +8,17 @@ const Partners = () => {
     <div className="max-w-[1320px] mx-auto px-4 lg:px-0">
       <Heading
         headingText="-Partners"
-        headingClass="mb-4 lg:mb-10 leading-none py-[40px] sm:py-[60px] md:py-[82px]  pl-5 "/>
-      <div className=" flex flex-wrap justify-center  mx-auto   ">
+        headingClass="mb-4 lg:mb-10 leading-none py-8 sm:py-10 md:pt-18 lg:pt-24  md:pb-13 lg::pb-16  pl-5 "/>
+      <div className=" flex flex-wrap justify-center  mx-auto ">
         {PARTNERS_DATA.map((obj, index) => (
           <div
             key={index}
-            className="w-full max-w-[425px] flex flex-col text-left px-4 xl:px-2 mx-auto h-full bg-white justify-center"
-          >
+            className="w-full max-w-[425px] md:w-1/2 flex flex-col text-left px-4 xl:px-2 mx-auto h-full bg-white justify-center mb-4 md:mb-2 lg:mb-0">
             <div className="h-20 sm:h-[130px] md:h-[150px] lg:h-[202px] w-full mb-4 sm:mb-10 md:mb-12 flex ">
               <img
                 src={obj.image}
                 alt={obj.name}
-                className="h-full object-contain object-left pointer-events-none"
-              />
+                className="h-full object-contain object-left  pointer-events-none"/>
             </div>
             <div className="flex flex-col flex-grow">
               <h3 className="text-[22px] sm:text-2xl md:text-[28px] font-extrabold pb-2 sm:pb-6 md:pb-8 leading-none min-h-[60px]">
@@ -39,7 +37,7 @@ const Partners = () => {
       <img
         src={logo}
         alt="logo"
-        className="mx-auto mt-10 md:mt-13 pointer-events-none  px-4"
+        className="mx-auto mt-8 md:mt-13 pointer-events-none  px-4"
       />
     </div>
   );

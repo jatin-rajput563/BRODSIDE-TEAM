@@ -9,7 +9,7 @@ const Charlie = () => {
           <img
             src={charliesIcon}
             alt="Charlie Icon"
-            className="w-20 h-16 sm:w-24 sm:h-20 md:w-[98px] md:h-[75px] mb-4 lg:mb-6"
+            className="w-20 h-16 sm:w-24 sm:h-20 md:w-[98px] md:h-[75px] mb-4 lg:mb-6  pointer-events-none"
           />
           <p className="text-[20px] sm:text-2xl md:text-[28px] lg:text-[32px] leading-[130%] font-light text-black">
             <span className="font-extrabold">Charlie, Vector</span>
