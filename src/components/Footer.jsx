@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div className='max-w-[1920px] mx-auto'>
     <div className='bg-[#1154B0] flex justify-center items-center'>
-      <div className='w-full max-w-[1029px] mx-auto px-4 lg:px-2 '>
-        <div className='flex flex-col md:flex-row gap-4 md:gap-[47px] py-6 md:py-[50px] items-center'>
+      <div className='w-full max-w-[1029px] mx-auto px-4 '>
+        <div className='flex flex-col md:flex-row  gap-4 lg:gap-6 xl:gap-[47px] py-6 md:py-[50px] '>
           <CustomInput inputClass="bg-white w-full w-[730px] !text-black " />
           <CustomButton btnClass="bg-[#FFF173] w-full md:w-auto md:whitespace-nowrap px-[27px]" btnText="NOTIFY ME" />
           </div>
@@ -30,7 +30,7 @@ const Footer = () => {
             <img
               src={twitter}
               alt="Twitter Icon"
-              className=' hover:transition-transform duration-300 hover:scale-105 pointer-events-none'
+              className=' hover:transition-transform duration-300 hover:scale-105 pointer-events-none w-10 md:w-[75px]'
             />
           </a>
         </div>
