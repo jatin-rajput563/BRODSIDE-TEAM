@@ -6,7 +6,7 @@ import Heading from "./common/Heading";
 const Avatars = () => {
   return (
     <>
-      <div className="md:mt-15 mt-10  lg:mt-[111px]">
+      <div className="md:mt-14 mt-10 lg:mt-[111px]">
         <div className="max-w-[1440px] mx-auto">
           <div className="min-[1440px]:!flex">
             <img
