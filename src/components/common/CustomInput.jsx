@@ -7,3 +7,5 @@ const CustomInput = ({ inputClass }) => {
 }
 
 export default CustomInput
+
+
