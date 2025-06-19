@@ -61,13 +61,12 @@ const Hero = () => {
             className="w-full h-full pointer-events-none"
             src="https://www.youtube.com/embed/0pFQtR1pUEU?enablejsapi=1&autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&loop=1&playlist=0pFQtR1pUEU"
             title="YouTube video"
-            frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen
           />
         )}
       </div>
-      <div className="absolute right-[5%] z-10">
+      <div className="absolute right-[5%] z-10 pointer-events-none">
         <img src={logo} alt="logo" />
       </div>
       <div className="absolute md:top-[33%] top-[69%] xl:left-[6%] md:left-[3%] left-[21%] z-10">
