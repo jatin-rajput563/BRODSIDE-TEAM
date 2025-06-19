@@ -33,9 +33,7 @@ const Footer = () => {
               className='hover:transition-transform duration-300 hover:scale-105'
             />
           </a>
-
         </div>
-
       </div>
     </div>
   );
