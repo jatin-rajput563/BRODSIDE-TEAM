@@ -4,7 +4,7 @@ import { STORYTELLING_DATA } from "../utils/helper";
 
 const Storytelling = () => (
   <>
-    <div className="">
+    <div className="max-w-[1440px] mx-auto">
       <Heading
         headingClass="lg:py-20 md:py-14 py-10 max-w-[1320px] mx-auto px-3 max-xl:!pl-6 max-xl:!text-[65px] max-lg:!text-[48px] max-md:!text-[40px] "
         headingText="-Starting with Storytelling..."
