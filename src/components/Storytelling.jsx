@@ -6,7 +6,7 @@ const Storytelling = () => (
   <>
     <div className="">
       <Heading
-        headingClass="lg:py-20 md:py-14 py-10 max-w-[1320px] mx-auto px-3 max-xl:!pl-6 max-xl:!text-[65px] max-lg:!text-[48px] max-md:!text-[44px] "
+        headingClass="lg:py-20 md:py-14 py-10 max-w-[1320px] mx-auto px-3 max-xl:!pl-6 max-xl:!text-[61px] max-lg:!text-[44px] max-md:!text-[40px] "
         headingText="-Starting with Storytelling..."
       />
       <div className="flex flex-wrap justify-center">
